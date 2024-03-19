@@ -3,22 +3,22 @@
 ## Setup Instructions
 
 1. Clone the repository:
-   Open a terminal or a comand prompt, navigate to the directory where you want to clone the repository then use the following command:
+   Open a terminal or a comand prompt, navigate to the directory where you want to clone the repository then use the following command:<br>
    git clone https://github.com/MihaiChelariu/ChatBot-LSEG.git
 
-3. Navigate to the project directory:
+3. Navigate to the project directory:<br>
    cd ./chatBot_LSEG/
 
-4. Install node dependencies:
+4. Install node dependencies:<br>
    npm install
 
-5. Start the JSON server (ensure it runs on a different port than the Vite server):
+5. Start the JSON server (ensure it runs on a different port than the Vite server):<br>
    npx json-server --watch data/Chatbot-stockData.json --port 8000
 
-6. Run the development server:
+6. Run the development server:<br>
    npm run dev
 
-7. Access the Application:
+7. Access the Application:<br>
    Open your web browser and navigate to 'http://localhost:3001'.
 
 # Additional Notes
