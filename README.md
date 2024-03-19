@@ -12,7 +12,7 @@
 4. Install node dependencies:<br>
    npm install
 
-5. Start the JSON server (ensure it runs on a different port than the Vite server):<br>
+5. Start the JSON server (ensure it runs on port 8000):<br>
    npx json-server --watch data/Chatbot-stockData.json --port 8000
 
 6. Run the development server:<br>
