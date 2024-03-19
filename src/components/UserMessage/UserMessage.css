@@ -1,0 +1,14 @@
+.userMessage{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.userMessageText{
+    background-color: rgba(211, 211, 211, 0.616);
+    border: none;
+    border-radius: 5px;
+    width: fit-content;
+    max-width: 750px;
+    position: relative;
+    padding: 5px;
+}

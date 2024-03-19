@@ -1,0 +1,53 @@
+.messagesContainer{
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.botMessage{
+    border: none;
+    border-radius: 5px;
+    max-width: 750px;
+    gap: 20px;
+    position: relative;
+}
+
+.robotIcon{
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    color: blueviolet;
+}
+
+.botMessageText{
+    background-color: rgba(137, 43, 226, 0.295);
+    border: none;
+    border-radius: 5px;
+    width: fit-content;
+    max-width: 750px;
+    gap: 20px;
+    position: relative;
+    margin-left: 40px;
+    padding: 5px;
+}
+
+.errorMessage{
+    background-color: red;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.messageOptions{
+    display: flex;
+    flex-direction: column;
+}
+
+.messageOptions>button{
+    border: none;
+    margin-bottom: 1px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.messageOptions>button:hover{
+    background-color: lightgrey;
+}
